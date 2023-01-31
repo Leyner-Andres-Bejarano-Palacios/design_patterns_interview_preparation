@@ -116,3 +116,17 @@ the elements on which it operates.
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 8
 </details>
+
+### Theorical Question 3
+
+Do you know the relantionships between the design patterns ?
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/design_patterns_relationships.png "design patterns relationships")
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 13
+</details>
