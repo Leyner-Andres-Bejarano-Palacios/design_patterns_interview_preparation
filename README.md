@@ -233,3 +233,95 @@ Design patterns: Abstract Factory (87), Bridge (151), Memento (283), Proxy (207)
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
 </details>
+
+### Theorical Question 9
+
+How would you avoid Algorithmic dependencies and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Algorithmic dependencies. Algorithms are often extended, optimized, and replaced
+during development and reuse. Objects that depend on an algorithm will have
+to change when the algorithm changes. Therefore algorithms that are likely to
+change should be isolated.
+Design patterns: Builder (97), Iterator (257), Strategy (315), Template
+Method (325), Visitor (331).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 10
+
+How would you avoid Tight coupling and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Tight coupling. Classes that are tightly coupled are hard to reuse in isolation, since
+they depend on each other. Tight coupling leads to monolithic systems, where
+you can't change or remove a class without understanding and changing many other classes. 
+
+The system becomes a dense mass that's hard to learn, port, and maintain.
+Loose coupling increases the probability that a class can be reused by itself and
+that a system can be learned, ported, modified, and extended more easily. Design
+patterns use techniques such as abstract coupling and layering to promote loosely
+coupled systems.
+Design patterns: Abstract Factory (87), Bridge (151), Chain of Responsibility (223),
+Command (233), Facade (185), Mediator (273), Observer (293).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 11
+
+How would you avoid Extending functionality by subclassing and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Extending functionality by subclassing. Customizing an object by subclassing often
+isn't easy. Every new class has a fixed implementation overhead (initialization,
+finalization, etc.). Defining a subclass also requires an in-depth understanding of
+the parent class. For example, overriding one operation might require overriding
+another. An overridden operation might be required to call an inherited operation.
+And subclassing can lead to an explosion of classes, because you might have to
+introduce many new subclasses for even a simple extension.
+
+Object composition in general and delegation in particular provide flexible alter-
+natives to inheritance for combining behavior. New functionality can be added to
+an application by composing existing objects in new ways rather than by defining
+new subclasses of existing classes. On the other hand, heavy use of object com-
+position can make designs harder to understand. Many design patterns produce
+designs in which you can introduce customized functionality just by defining one
+subclass and composing its instances with existing ones.
+Design patterns: Bridge (151), Chain of Responsibility (223), Composite (163),
+Decorator (175), Observer (293), Strategy (315).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 12
+
+How would you avoid Inability to alter classes conveniently and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Inability to alter classes conveniently. Sometimes you have to modify a class that
+can't be modified conveniently. Perhaps you need the source code and don't have
+it (as may be the case with a commercial class library). Or maybe any change
+would require modifying lots of existing subclasses. Design patterns offer ways
+to modify classes in such circumstances.
+Design patterns: Adapter (139), Decorator (175), Visitor (331).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
