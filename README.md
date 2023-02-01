@@ -325,3 +325,17 @@ Design patterns: Adapter (139), Decorator (175), Visitor (331).
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
 </details>
+
+### Theorical Question 12
+
+Desing pattern are a way of handling evolution of software. What variable is the one that could change to consider each design pattern ?
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/design_patterns_var_that_can_change.png "design patterns var that can change")
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
