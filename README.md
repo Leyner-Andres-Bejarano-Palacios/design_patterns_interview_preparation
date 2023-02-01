@@ -130,3 +130,106 @@ Do you know the relantionships between the design patterns ?
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 13
 </details>
+
+### Theorical Question 4
+
+Do you know what dynamic binding is ?
+
+<details><summary><b>Answer</b></summary>
+
+When a request is sent to an object, the particular operation that's performed depends on
+both the request and the receiving object. Different objects that support identical requests
+may have different implementations of the operations that fulfill these requests. The
+run-time association of a request to an object and one of its operations is known as
+dynamic binding.
+
+Dynamic binding means that issuing a request doesn't commit you to a particular
+implementation until run-time. Consequently, you can write programs that expect an
+object with a particular interface, knowing that any object that has the correct interface
+will accept the request. Moreover, dynamic binding lets you substitute objects that
+have identical interfaces for each other at run-time. This substitutability is known as
+polymorphism, and it's a key concept in object-oriented systems. It lets a client object
+make few assumptions about other objects beyond supporting a particular interface.
+Polymorphism simplifies the definitions of clients, decouples objects from each other,
+and lets them vary their relationships to each other at run-time.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 13
+</details>
+
+
+### Theorical Question 5
+
+How would you avoid Creating an object by specifying a class explicitly and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Creating an object by specifying a class explicitly. Specifying a class name when
+you create an object commits you to a particular implementation instead of a
+particular interface. This commitment can complicate future changes. To avoid it,
+create objects indirectly.
+Design patterns: Abstract Factory (87), Factory Method (107), Prototype (117).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 6
+
+How would you avoid Dependence on specific operations and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Dependence on specific operations. When you specify a particular operation, you
+commit to one way of satisfying a request. By avoiding hard-coded requests, you
+make it easier to change the way a request gets satisfied both at compile-time and
+at run-time.
+Design patterns: Chain of Responsibility (223), Command (233).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 7
+
+How would you avoid Dependence on hardware and software platform and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Dependence on hardware and software platform. External operating system interfaces
+and application programming interfaces (APIs) are different on different hard-
+ware and software platforms. Software that depends on a particular platform will
+be harder to port to other platforms. It may even be difficult to keep it up to date
+on its native platform. It's important therefore to design your system to limit its
+platform dependencies.
+Design patterns: Abstract Factory (87), Bridge (151).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
+
+### Theorical Question 8
+
+How would you avoid Dependence on object representations or implementations and why would you want to avoid that ?
+
+<details><summary><b>Answer</b></summary>
+
+Dependence on object representations or implementations. Clients that know how an
+object is represented, stored, located, or implemented might need to be changed
+when the object changes. Hiding this information from clients keeps changes
+from cascading.
+Design patterns: Abstract Factory (87), Bridge (151), Memento (283), Proxy (207).
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
+</details>
