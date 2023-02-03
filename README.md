@@ -339,3 +339,42 @@ Desing pattern are a way of handling evolution of software. What variable is the
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 24
 </details>
+
+### Theorical Question 13
+
+Do you know what recursive composition is ?
+
+<details><summary><b>Answer</b></summary>
+
+A common way to represent hierarchically structured information is through a tech-
+nique called recursive composition, which entails building increasingly complex ele-
+ments out of simpler ones. Recursive composition gives us a way to compose a docu-
+ment out of simple graphical elements. As a first step, we can tile a set of characters
+and graphics from left to right to form a line in the document. Then multiple lines
+can be arranged to form a column, multiple columns can form a page, and so on
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 56
+</details>
+
+### Theorical Question 14
+
+Do you know when would we use Transparent Enclosure ?
+
+<details><summary><b>Answer</b></summary>
+
+When we need to combine different atributes of the system, avoiding to create a new class for each combination.Transparent enclosure, which combines the notions
+of (1) single-child (or single-component) composition and (2) compatible interfaces.
+Clients generally can't tell whether they're dealing with the component or its enclosure
+(i.e., the child's parent), especially if the enclosure simply delegates all its operations to
+its component. But the enclosure can also augment the component's behavior by doing
+work of its own before and/or after delegating an operation. The enclosure can also
+effectively add state to the component.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 63
+</details>
