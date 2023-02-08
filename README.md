@@ -378,3 +378,22 @@ effectively add state to the component.
 <details><summary><b>Source</b></summary>
 Design Patterns: Elements of Reusable Object-Oriented Software - pag 63
 </details>
+
+### Theorical Question 15
+
+Do you understand the idea behind the bridge pattern whe we would have a class_name and class_name_Impl ?
+
+<details><summary><b>Answer</b></summary>
+
+The intent behind Bridge is to allow separate class hierarchies to work together
+even as they evolve independently. Our design criteria led us to create two separate
+class hierarchies, one that supports the logical notion of class_name, and another for
+capturing different implementations of class_name. The Bridge pattern lets us maintain
+and enhance our logical abstractions without touching class_name system-
+dependent code, and vice versa.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+Design Patterns: Elements of Reusable Object-Oriented Software - pag 78
+</details>
